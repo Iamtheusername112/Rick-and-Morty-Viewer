@@ -3,7 +3,7 @@ import { useState } from "react";
 import CharacterCard from "./CharacterCard";
 
 const Character = () => {
-  const [page, setPage] = useState(42); // Start at page 1
+  const [page, setPage] = useState(1); // Start at page 1
 
   const fetchCharacters = async ({ queryKey }) => {
     const response = await fetch(
