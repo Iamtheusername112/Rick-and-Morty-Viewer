@@ -13,6 +13,7 @@ const CharacterCard = ({ character }) => {
         <p className="title">Last seen on</p>
 
         <p> {character.location.name} </p>
+        <p> {character.gender} </p>
       </div>
     </div>
   );
